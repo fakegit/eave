@@ -11,6 +11,9 @@ import yaml
 from step import Template
 
 
+VERSION = '0.1.3'
+
+
 __all__ = ['Doc', 'Note', 'Api', 'Param', 'PathParam', 'QueryParam', 'BodyParam', 'PP', 'QP', 'BP', 'readf']
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
